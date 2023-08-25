@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alumnis",
+  "info": {
+    "singularName": "alumni",
+    "pluralName": "alumnis",
+    "displayName": "alumni"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "author_name": {
+      "type": "richtext"
+    },
+    "discipline": {
+      "type": "richtext"
+    },
+    "author_bio": {
+      "type": "richtext"
+    },
+    "post_description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

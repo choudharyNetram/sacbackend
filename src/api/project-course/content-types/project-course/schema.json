@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_courses",
+  "info": {
+    "singularName": "project-course",
+    "pluralName": "project-courses",
+    "displayName": "project_course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "prof_name": {
+      "type": "richtext"
+    },
+    "student_name": {
+      "type": "richtext"
+    },
+    "discipline": {
+      "type": "richtext"
+    },
+    "course_code": {
+      "type": "richtext"
+    },
+    "acad_year": {
+      "type": "richtext"
+    },
+    "project_brief": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

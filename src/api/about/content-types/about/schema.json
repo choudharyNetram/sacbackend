@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "name": {
+      "type": "richtext",
+      "required": true
+    },
+    "position": {
+      "type": "richtext"
+    },
+    "year": {
+      "type": "richtext"
+    },
+    "discipline": {
+      "type": "richtext"
+    },
+    "bio": {
+      "type": "richtext"
+    }
+  }
+}

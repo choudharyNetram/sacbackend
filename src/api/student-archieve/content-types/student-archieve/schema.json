@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_archieves",
+  "info": {
+    "singularName": "student-archieve",
+    "pluralName": "student-archieves",
+    "displayName": "student_archieve"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "author_name": {
+      "type": "richtext"
+    },
+    "discipline": {
+      "type": "richtext"
+    },
+    "author_bio": {
+      "type": "richtext"
+    },
+    "post_description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

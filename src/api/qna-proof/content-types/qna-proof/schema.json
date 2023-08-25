@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qna_proofs",
+  "info": {
+    "singularName": "qna-proof",
+    "pluralName": "qna-proofs",
+    "displayName": "qna_prof",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "prof_name": {
+      "type": "richtext"
+    },
+    "prof_discipline": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "prof_bio": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    },
+    "post_description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
