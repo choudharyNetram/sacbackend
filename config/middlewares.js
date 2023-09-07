@@ -22,7 +22,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:1337', 'https://aciitgnbackend.onrender.com' ]
+      origin: [ 'https://aciitgnbackend.onrender.com' , 'http://localhost:1337' ]
     }
   },
   'strapi::logger',
