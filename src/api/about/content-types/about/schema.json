@@ -38,6 +38,9 @@
     },
     "bio": {
       "type": "richtext"
+    },
+    "priority": {
+      "type": "integer"
     }
   }
 }
