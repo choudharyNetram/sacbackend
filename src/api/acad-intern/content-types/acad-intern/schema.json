@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "student_archieves",
+  "collectionName": "acad_interns",
   "info": {
-    "singularName": "student-archieve",
-    "pluralName": "student-archieves",
-    "displayName": "student_archieve",
+    "singularName": "acad-intern",
+    "pluralName": "acad-interns",
+    "displayName": "acad_intern",
     "description": ""
   },
   "options": {
@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "student_name": {
       "type": "richtext"
     },
-    "author_name": {
+    "title": {
       "type": "richtext"
     },
     "discipline": {
@@ -26,6 +26,9 @@
     },
     "post_description": {
       "type": "richtext"
+    },
+    "date": {
+      "type": "date"
     },
     "image": {
       "type": "media",
@@ -38,16 +41,13 @@
         "audios"
       ]
     },
-    "date": {
-      "type": "date"
-    },
     "uid": {
       "type": "uid"
     },
     "vedio_link": {
       "type": "richtext"
     },
-    "post_link": {
+    "palaceOfIntern": {
       "type": "richtext"
     }
   }

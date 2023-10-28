@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "student_archieves",
+  "collectionName": "industry_interns",
   "info": {
-    "singularName": "student-archieve",
-    "pluralName": "student-archieves",
-    "displayName": "student_archieve",
+    "singularName": "industry-intern",
+    "pluralName": "industry-interns",
+    "displayName": "industry_intern",
     "description": ""
   },
   "options": {
@@ -12,20 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "student_name": {
       "type": "richtext"
     },
-    "author_name": {
+    "title": {
       "type": "richtext"
     },
     "discipline": {
       "type": "richtext"
     },
-    "author_bio": {
-      "type": "richtext"
+    "date": {
+      "type": "date"
     },
-    "post_description": {
-      "type": "richtext"
+    "uid": {
+      "type": "uid"
     },
     "image": {
       "type": "media",
@@ -38,16 +38,13 @@
         "audios"
       ]
     },
-    "date": {
-      "type": "date"
-    },
-    "uid": {
-      "type": "uid"
-    },
-    "vedio_link": {
+    "student_bio": {
       "type": "richtext"
     },
-    "post_link": {
+    "post_description": {
+      "type": "richtext"
+    },
+    "vedio_link": {
       "type": "richtext"
     }
   }

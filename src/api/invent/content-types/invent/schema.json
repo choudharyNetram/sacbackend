@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "student_archieves",
+  "collectionName": "invents",
   "info": {
-    "singularName": "student-archieve",
-    "pluralName": "student-archieves",
-    "displayName": "student_archieve",
+    "singularName": "invent",
+    "pluralName": "invents",
+    "displayName": "invent",
     "description": ""
   },
   "options": {
@@ -12,20 +12,26 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "student_name": {
       "type": "richtext"
     },
-    "author_name": {
+    "title": {
       "type": "richtext"
     },
     "discipline": {
       "type": "richtext"
     },
-    "author_bio": {
-      "type": "richtext"
-    },
     "post_description": {
       "type": "richtext"
+    },
+    "vedio_link": {
+      "type": "richtext"
+    },
+    "date": {
+      "type": "date"
+    },
+    "uid": {
+      "type": "uid"
     },
     "image": {
       "type": "media",
@@ -38,16 +44,7 @@
         "audios"
       ]
     },
-    "date": {
-      "type": "date"
-    },
-    "uid": {
-      "type": "uid"
-    },
-    "vedio_link": {
-      "type": "richtext"
-    },
-    "post_link": {
+    "student_bio": {
       "type": "richtext"
     }
   }
